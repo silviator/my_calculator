@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 	<head>
@@ -33,3 +34,27 @@
 		</script>
 	</body>
 </html>
+=======
+<h1>Calculadora de Silvia Torres Melero</h1>
+Number:
+<input type="text" id="n1">
+<p>
+    <button onclick="cube()"> x^3 </button>
+    <button onclick="power_4()"> x^4 </button>
+    <button onclick="sine()"> sin </button>
+</p>
+<script>
+    function cube() {
+        var num = document.getElementById("n1");
+        num.value = Math.pow(num.value, 3);
+    }
+    function power_4() {
+        var num = document.getElementById("n1");
+        num.value = Math.pow(num.value, 4);
+    }
+    function sine() {
+        var num = document.getElementById("n1");
+        num.value = Math.sin(num.value);
+    }
+</script>
+>>>>>>> main
